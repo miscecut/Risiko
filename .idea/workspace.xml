@@ -19,20 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="24fd0a6b-61c6-4125-9924-5669e0946b6f" name="Default Changelist" comment="creating method which generates the world map from a json file">
-      <change beforePath="$PROJECT_DIR$/Risiko.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Risiko.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ServerMain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/ArmyColor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/Observable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/Observer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/Player.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/utils/DiceSet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/utils/Die.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/utils/exceptions/NonExistingTerritoryException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/worldstructure/Country.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/worldstructure/Territory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/worldstructure/World.class" beforeDir="false" />
-    </list>
+    <list default="true" id="24fd0a6b-61c6-4125-9924-5669e0946b6f" name="Default Changelist" comment="deleted gitignore" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -112,7 +99,21 @@
       <option name="project" value="LOCAL" />
       <updated>1593630234371</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="deleted gitignore">
+      <created>1593630392923</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1593630392924</updated>
+    </task>
+    <task id="LOCAL-00006" summary="deleted gitignore">
+      <created>1593630491799</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1593630491799</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -133,21 +134,22 @@
     <MESSAGE value="basic world structure creation" />
     <MESSAGE value="data folder and json creation" />
     <MESSAGE value="creating method which generates the world map from a json file" />
-    <option name="LAST_COMMIT_MESSAGE" value="creating method which generates the world map from a json file" />
+    <MESSAGE value="deleted gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="deleted gitignore" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593630335293">
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593630446698">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1593630335293" />
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1593630446698" />
     <state x="488" y="80" key="#com.intellij.ide.util.MemberChooser" timestamp="1593619280729">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="488" y="80" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1593619280729" />
-    <state x="412" y="154" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1593603375655">
+    <state x="412" y="154" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1593630445121">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="412" y="154" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1593603375655" />
+    <state x="412" y="154" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1593630445121" />
     <state x="310" y="0" key="CommitChangelistDialog2" timestamp="1593622343434">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -160,22 +162,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="561" y="262" key="Github.ShareDialog/0.0.1366.728@0.0.1366.728" timestamp="1593623885952" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1593630347441">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1593630494726">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1593630347441" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1593630347441">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1593630494726" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1593630494726">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1593630347441" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1593630347441">
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1593630494726" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1593630494726">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1593630347441" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1593630347441">
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1593630494726" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1593630494726">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1593630347441" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1593630494726" />
     <state x="213" y="19" key="Maven.ArtifactSearchDialog" timestamp="1593628729664">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -188,5 +190,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1593630238137" />
+    <state x="492" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1593630408011">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="492" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1593630408011" />
   </component>
 </project>
