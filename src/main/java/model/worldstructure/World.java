@@ -1,5 +1,6 @@
 package model.worldstructure;
 
+import data.DataManager;
 import model.Player;
 import model.utils.exceptions.NonExistingTerritoryException;
 
@@ -11,8 +12,9 @@ public class World {
     private final Map<String,Set<String>> territoryBoundaries;
 
     public World() {
+        DataManager dm = new DataManager();
         countries = new HashMap<>();
-        territoryCountryMap = new HashMap<>();
+        territoryCountryMap = dm.generateWorldStructure();
         territoryBoundaries = new HashMap<>();
     }
 

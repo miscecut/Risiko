@@ -6,10 +6,12 @@ import model.utils.exceptions.NonExistingTerritoryException;
 import java.util.*;
 
 public class Country {
+    private final String name;
     private final Map<String,Territory> territories;
     private final int bonus;
 
-    Country(Set<String> territoryNames, int bonus) {
+    public Country(String name, Set<String> territoryNames, int bonus) {
+        this.name = name;
         this.bonus = bonus;
         territories = new HashMap<>();
         territoryNames.forEach(territoryName -> territories.put(territoryName,new Territory(territoryName)));
