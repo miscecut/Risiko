@@ -1,0 +1,10 @@
+[
+    {
+        "name": "Asia",
+        "bonus": 7,
+        "territories": [
+            "China",
+            "Chita"
+        ]
+    }
+]
