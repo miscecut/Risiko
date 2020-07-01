@@ -1,0 +1,42 @@
+[
+    {
+        "name": "Africa",
+        "bonus": 3,
+        "territories": [
+            "Congo",
+            "Eastern Africa",
+            "Egypt",
+            "Madagascar",
+            "Northern Africa",
+            "Southern Africa"
+        ]
+    },
+    {
+        "name": "Asia",
+        "bonus": 7,
+        "territories": [
+            "Afghanistan",
+            "China",
+            "Chita",
+            "India",
+            "Japan",
+            "Kamchatka",
+            "Middle East",
+            "Mongolia",
+            "Siam",
+            "Siberia",
+            "Urals",
+            "Yakutia"
+        ]
+    },
+    {
+        "name": "Oceania",
+        "bonus": 2,
+        "territories": [
+            "Eastern Australia",
+            "Indonesia",
+            "New Guinea",
+            "Western Australia"
+        ]
+    }
+]

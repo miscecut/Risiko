@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="24fd0a6b-61c6-4125-9924-5669e0946b6f" name="Default Changelist" comment="creating method which generates the world map from a json file">
+      <change beforePath="$PROJECT_DIR$/Risiko.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Risiko.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ServerMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/ArmyColor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/Observable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/Observer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/Player.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/utils/DiceSet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/utils/Die.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/utils/exceptions/NonExistingTerritoryException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/worldstructure/Country.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/worldstructure/Territory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/worldstructure/World.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1e5CHOjWs8bigHXWot6sKfhkIU3" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Start Server" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="ServerMain" />
+      <module name="Risiko" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="24fd0a6b-61c6-4125-9924-5669e0946b6f" name="Default Changelist" comment="" />
+      <created>1593601978409</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1593601978409</updated>
+    </task>
+    <task id="LOCAL-00001" summary="project creation and first configuration">
+      <created>1593604770628</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1593604770628</updated>
+    </task>
+    <task id="LOCAL-00002" summary="basic world structure creation">
+      <created>1593622256941</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1593622256941</updated>
+    </task>
+    <task id="LOCAL-00003" summary="data folder and json creation">
+      <created>1593625109874</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1593625109874</updated>
+    </task>
+    <task id="LOCAL-00004" summary="creating method which generates the world map from a json file">
+      <created>1593630234371</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1593630234371</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="project creation and first configuration" />
+    <MESSAGE value="territory creation" />
+    <MESSAGE value="basic world structure creation" />
+    <MESSAGE value="data folder and json creation" />
+    <MESSAGE value="creating method which generates the world map from a json file" />
+    <option name="LAST_COMMIT_MESSAGE" value="creating method which generates the world map from a json file" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593630335293">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1593630335293" />
+    <state x="488" y="80" key="#com.intellij.ide.util.MemberChooser" timestamp="1593619280729">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="488" y="80" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1593619280729" />
+    <state x="412" y="154" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1593603375655">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="412" y="154" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1593603375655" />
+    <state x="310" y="0" key="CommitChangelistDialog2" timestamp="1593622343434">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="310" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1593622343434" />
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1593603175769">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1593603175769" />
+    <state x="561" y="262" key="Github.ShareDialog" timestamp="1593623885952">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="561" y="262" key="Github.ShareDialog/0.0.1366.728@0.0.1366.728" timestamp="1593623885952" />
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1593630347441">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1593630347441" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1593630347441">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1593630347441" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1593630347441">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1593630347441" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1593630347441">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1593630347441" />
+    <state x="213" y="19" key="Maven.ArtifactSearchDialog" timestamp="1593628729664">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="213" y="19" key="Maven.ArtifactSearchDialog/0.0.1366.728@0.0.1366.728" timestamp="1593628729664" />
+    <state x="163" y="0" key="SettingsEditor" timestamp="1593628809438">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1593628809438" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1593630238137">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1593630238137" />
+  </component>
+</project>
