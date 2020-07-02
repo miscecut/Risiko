@@ -30,6 +30,34 @@
         ]
     },
     {
+        "name": "Europe",
+        "bonus": 5,
+        "territories": [
+            "Great Britain",
+            "Iceland",
+            "Northern Europe",
+            "Scandinavia",
+            "Southern Europe",
+            "Ukraine",
+            "Western Europe"
+        ]
+    },
+    {
+        "name": "Northern Europe",
+        "bonus": 5,
+        "territories": [
+            "Alaska",
+            "Alberta",
+            "Central America",
+            "Eastern United States",
+            "Greenland",
+            "North-West Territories",
+            "Ontario",
+            "Quebec",
+            "Western United States"
+        ]
+    },
+    {
         "name": "Oceania",
         "bonus": 2,
         "territories": [
@@ -37,6 +65,16 @@
             "Indonesia",
             "New Guinea",
             "Western Australia"
+        ]
+    },
+    {
+        "name": "Southern America",
+        "bonus": 2,
+        "territories": [
+            "Argentina",
+            "Brazil",
+            "Peru",
+            "Venezuela"
         ]
     }
 ]

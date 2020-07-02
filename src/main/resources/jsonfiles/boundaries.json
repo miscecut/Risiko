@@ -1,5 +1,14 @@
 [
     {
+        "territory": "Afghanistan",
+        "boundaries": [
+            "China",
+            "Middle East",
+            "Ukraine",
+            "Urals"
+        ]
+    },
+    {
         "territory": "Alaska",
         "boundaries": [
             "Alberta",
@@ -17,12 +26,342 @@
         ]
     },
     {
+        "territory": "Argentina",
+        "boundaries": [
+            "Brazil",
+            "Peru"
+        ]
+    },
+    {
+        "territory": "Brazil",
+        "boundaries": [
+            "Argentina",
+            "Northern Africa",
+            "Peru",
+            "Venezuela"
+        ]
+    },
+    {
+        "territory": "Central America",
+        "boundaries": [
+            "Eastern United States",
+            "Venezuela",
+            "Western United States"
+        ]
+    },
+    {
+        "territory": "China",
+        "boundaries": [
+            "Afghanistan",
+            "India",
+            "Middle East",
+            "Mongolia",
+            "Siam",
+            "Siberia",
+            "Urals"
+        ]
+    },
+    {
+        "territory": "Chita",
+        "Boundaries": [
+            "Kamchatka",
+            "Mongolia",
+            "Siberia",
+            "Yakutia"
+        ]
+    },
+    {
+        "territory": "Congo",
+        "boundaries": [
+            "Eastern Africa",
+            "Northern Africa",
+            "Southern Africa"
+        ]
+    },
+    {
+        "territory": "Eastern Africa",
+        "boundaries": [
+            "Congo",
+            "Egypt",
+            "Madagascar",
+            "Northern Africa",
+            "Southern Africa"
+        ]
+    },
+    {
+        "territory": "Eastern Australia",
+        "boundaries": [
+            "New Guinea",
+            "Western Australia"
+        ]
+    },
+    {
+        "territory": "Egypt",
+        "boundaries": [
+            "Eastern Africa",
+            "Middle East",
+            "Northern Africa",
+            "Southern Europe"
+        ]
+    },
+    {
+        "territory": "Great Britain",
+        "boundaries": [
+            "Iceland",
+            "Northern Europe",
+            "Scandinavia",
+            "Western Europe"
+        ]
+    },
+    {
+        "territory": "Greenland",
+        "boundaries": [
+            "Iceland",
+            "North-West Territories",
+            "Ontario",
+            "Quebec"
+        ]
+    },
+    {
+        "territory": "Iceland",
+        "boundaries": [
+            "Great Britain",
+            "Greenland",
+            "Scandinavia"
+        ]
+    },
+    {
+        "territory": "India",
+        "boundaries": [
+            "China",
+            "Middle East",
+            "Siam"
+        ]
+    },
+    {
+        "territory": "Indonesia",
+        "boundaries": [
+            "New Guinea",
+            "Siam",
+            "Western Australia"
+        ]
+    },
+    {
+        "territory": "Japan",
+        "boundaries": [
+            "Kamchatka",
+            "Mongolia"
+        ]
+    },
+    {
+        "territory": "Kamchatka",
+        "boundaries": [
+            "Alaska",
+            "Chita",
+            "Japan",
+            "Mongolia",
+            "Yakutia"
+        ]
+    },
+    {
+        "territory": "Madagascar",
+        "boundaries": [
+            "Eastern Africa",
+            "Southern Africa"
+        ]
+    },
+    {
+        "territory": "Middle East",
+        "boundaries": [
+            "Afghanistan",
+            "China",
+            "Egypt",
+            "Southern Europe",
+            "Ukraine",
+            "Urals"
+        ]
+    },
+    {
+        "territory": "Mongolia",
+        "boundaries": [
+            "China",
+            "Chita",
+            "Japan",
+            "Kamchatka",
+            "Siberia"
+        ]
+    },
+    {
+        "territory": "New Guinea",
+        "boundaries": [
+            "Eastern Australia",
+            "Indonesia",
+            "Western Australia"
+        ]
+    },
+    {
         "territory": "North-West Territories",
         "boundaries": [
             "Alaska",
             "Alberta",
             "Greenland",
             "Ontario"
+        ]
+    },
+    {
+        "territory": "Northern Africa",
+        "boundaries": [
+            "Brazil",
+            "Congo",
+            "Eastern Africa",
+            "Egypt",
+            "Southern Europe",
+            "Western Europe"
+        ]
+    },
+    {
+        "territory": "Northern Europe",
+        "boundaries": [
+            "Great Britain",
+            "Scandinavia",
+            "Southern Europe",
+            "Ukraine",
+            "Western Europe"
+        ]
+    },
+    {
+        "territory": "Ontario",
+        "boundaries": [
+            "Alberta",
+            "Eastern United States",
+            "Greenland",
+            "North-West Territories",
+            "Quebec",
+            "Western United States"
+        ]
+    },
+    {
+        "territory": "Peru",
+        "boundaries": [
+            "Argentina",
+            "Brazil",
+            "Venezuela"
+        ]
+    },
+    {
+        "territory": "Quebec",
+        "boundaries": [
+            "Greenland",
+            "Ontario",
+            "Eastern United States"
+        ]
+    },
+    {
+        "territory": "Scandinavia",
+        "boundaries": [
+            "Great Britain",
+            "Iceland",
+            "Northern Europe",
+            "Ukraine"
+        ]
+    },
+    {
+        "territory": "Siam",
+        "boundaries": [
+            "China",
+            "India",
+            "Indonesia"
+        ]
+    },
+    {
+        "territory": "Siberia",
+        "boundaries": [
+            "China",
+            "Chita",
+            "Mongolia",
+            "Urals",
+            "Yakutia"
+        ]
+    },
+    {
+        "territory": "Southern Africa",
+        "boundaries": [
+            "Congo",
+            "Eastern Africa",
+            "Madagascar"
+        ]
+    },
+    {
+        "territory": "Southern Europe",
+        "boundaries": [
+            "Egypt",
+            "Middle East",
+            "Northern Africa",
+            "Northern Europe",
+            "Ukraine",
+            "Western Europe"
+        ]
+    },
+    {
+        "territory": "Ukraine",
+        "boundaries": [
+            "Afghanistan",
+            "Middle East",
+            "Northern Europe",
+            "Scandinavia",
+            "Southern Europe",
+            "Urals"
+        ]
+    },
+    {
+        "territory": "Urals",
+        "boundaries": [
+            "Afghanistan",
+            "China",
+            "Siberia",
+            "Ukraine"
+        ]
+    },
+    {
+        "territory": "Venezuela",
+        "boundaries": [
+            "Brazil",
+            "Central America",
+            "Peru"
+        ]
+    },
+    {
+        "territory": "Western Australia",
+        "boundaries": [
+            "Eastern Australia",
+            "Indonesia",
+            "New Guinea"
+        ]
+    },
+    {
+        "territory": "Western Europe",
+        "boundaries": [
+            "Great Britain",
+            "Northern Africa",
+            "Northern Europe",
+            "Southern Europe"
+        ]
+    },
+    {
+        "territory": "Western United States",
+        "boundaries": [
+            "Alberta",
+            "Central America",
+            "Eastern United States",
+            "Ontario"
+        ]
+    },
+    {
+        "territory": "Yakutia",
+        "boundaries": [
+            "Chita",
+            "Kamchatka",
+            "Siberia"
         ]
     }
 ]

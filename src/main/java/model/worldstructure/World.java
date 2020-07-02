@@ -36,15 +36,11 @@ public class World {
     }
 
     public Set<String> getOwnedTerritoryNames(Player player) {
-        Set<String> ownedTerritories = new HashSet<>();
-        for(Country country : countries.values())
-            ownedTerritories.addAll(country.getOwnedTerritoryNames(player));
-        return ownedTerritories;
+        return getOwnedTerritoryNames(player,0);
     }
 
     public Set<String> fromWhereCanPlayerMove(Player player) {
-        Set<String> requestedTerritories = new HashSet<>();
-        countries.values().forEach(country -> requestedTerritories.addAll(country.getOwnedTerritoryNames(player,2)));
+        Set<String> requestedTerritories = getOwnedTerritoryNames(player,2);
         requestedTerritories.removeAll(getTerritoriesSurroundedByOnlyEnemies(player,new HashSet<>(requestedTerritories)));
         return requestedTerritories;
     }
@@ -60,6 +56,30 @@ public class World {
         return requestedTerritories;
     }
 
+    public Set<String> fromWhereCanPlayerAttack(Player player) {
+        Set<String> requestedTerritories = getOwnedTerritoryNames(player,2);
+        requestedTerritories.removeAll(getTerritoriesSurroundedByOnlyAllies(player,new HashSet<>(requestedTerritories)));
+        return requestedTerritories;
+    }
+
+    public Set<String> whereCanPlayerAttack(Player player, String attackingTerritory) throws NonExistingTerritoryException{
+        Set<String> requestedTerritories = new HashSet<>();
+        if(!territoryBoundaries.containsKey(attackingTerritory))
+            throw new NonExistingTerritoryException();
+        territoryBoundaries.get(attackingTerritory).stream().filter(boundary -> {
+            Optional<Player> boundaryOwner = territoryCountryMap.get(boundary).getOwner();
+            return boundaryOwner.isEmpty() || !boundaryOwner.get().equals(player);
+        }).forEach(requestedTerritories::add);
+        return requestedTerritories;
+    }
+
+    private Set<String> getOwnedTerritoryNames(Player player, int minimumArmies) {
+        Set<String> ownedTerritories = new HashSet<>();
+        for(Country country : countries.values())
+            ownedTerritories.addAll(country.getOwnedTerritoryNames(player,minimumArmies));
+        return ownedTerritories;
+    }
+
     private Set<String> getTerritoriesSurroundedByOnlyEnemies(Player owner, Set<String> territories) {
         Set<String> requestedTerritories = new HashSet<>();
         territories.stream().filter(territory -> {
@@ -68,6 +88,18 @@ public class World {
                     return false;
             }
             return true;
+        }).forEach(requestedTerritories::add);
+        return requestedTerritories;
+    }
+
+    private Set<String> getTerritoriesSurroundedByOnlyAllies(Player owner, Set<String> territories) {
+        Set<String> requestedTerritories = new HashSet<>();
+        territories.stream().filter(territory -> {
+            for(String boundary : territoryBoundaries.get(territory)) {
+                if(territoryCountryMap.get(boundary).getOwner().isPresent() && territoryCountryMap.get(boundary).getOwner().get().equals(owner))
+                    return true;
+            }
+            return false;
         }).forEach(requestedTerritories::add);
         return requestedTerritories;
     }

@@ -1,10 +1,13 @@
 package model;
 
+import model.cards.Hand;
+
 import java.util.Objects;
 
 public class Player {
     private final ArmyColor armyColor;
     private final String name;
+    private final Hand hand = new Hand();
 
     public Player(ArmyColor armyColor, String name) {
         this.armyColor = armyColor;
@@ -17,6 +20,10 @@ public class Player {
 
     public ArmyColor getArmyColor() {
         return armyColor;
+    }
+
+    public Hand getHand() {
+        return hand;
     }
 
     @Override

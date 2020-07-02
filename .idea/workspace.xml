@@ -19,12 +19,19 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="24fd0a6b-61c6-4125-9924-5669e0946b6f" name="Default Changelist" comment="deleted gitignore">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/jsonfiles/boundaries.json" afterDir="false" />
+    <list default="true" id="24fd0a6b-61c6-4125-9924-5669e0946b6f" name="Default Changelist" comment="new world methods and new json file">
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/cards/Card.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/cards/CardSymbol.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/cards/CombinationHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/cards/Deck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/cards/Hand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/cards/TerritoryCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/utils/exceptions/EmptyDeckException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/data/DataManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/data/DataManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/worldstructure/Country.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/worldstructure/Country.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Player.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/model/worldstructure/World.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/worldstructure/World.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/jsonfiles/boundaries.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/jsonfiles/boundaries.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/jsonfiles/countriesmap.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/jsonfiles/countriesmap.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,7 +161,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593631214111</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="new world methods and new json file">
+      <created>1593650382858</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1593650382858</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -177,17 +191,18 @@
     <MESSAGE value="creating method which generates the world map from a json file" />
     <MESSAGE value="gitignore" />
     <MESSAGE value="deleted gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="deleted gitignore" />
+    <MESSAGE value="new world methods and new json file" />
+    <option name="LAST_COMMIT_MESSAGE" value="new world methods and new json file" />
   </component>
   <component name="WindowStateProjectService">
     <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593630446698">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1593630446698" />
-    <state x="488" y="80" key="#com.intellij.ide.util.MemberChooser" timestamp="1593619280729">
+    <state x="488" y="80" key="#com.intellij.ide.util.MemberChooser" timestamp="1593691243144">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="488" y="80" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1593619280729" />
+    <state x="488" y="80" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1593691243144" />
     <state x="412" y="154" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1593630445121">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -232,10 +247,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1593628809438" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1593631157233">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1593650385657">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1593631157233" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1593650385657" />
     <state x="492" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1593630408011">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
