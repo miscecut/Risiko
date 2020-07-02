@@ -1,0 +1,170 @@
+[
+    {
+        "territory": "Afghanistan",
+        "symbol": "KNIGHT"
+    },
+    {
+        "territory": "Alaska",
+        "symbol": "KNIGHT"
+    },
+    {
+        "territory": "Alberta",
+        "symbol": "CANNON"
+    },
+    {
+        "territory": "Argentina",
+        "symbol": "CANNON"
+    },
+    {
+        "territory": "Brazil",
+        "symbol": "BISHOP"
+    },
+    {
+        "territory": "Central America",
+        "symbol": "KNIGHT"
+    },
+    {
+        "territory": "China",
+        "symbol": "BISHOP"
+    },
+    {
+        "territory": "Chita",
+        "symbol": "KNIGHT"
+    },
+    {
+        "territory": "Congo",
+        "symbol": "BISHOP"
+    },
+    {
+        "territory": "Eastern Africa",
+        "symbol": "KNIGHT"
+    },
+    {
+        "territory": "Eastern Australia",
+        "symbol": "KNIGHT"
+    },
+    {
+        "territory": "Eastern United States",
+        "symbol": "CANNON"
+    },
+    {
+        "territory": "Egypt",
+        "symbol": "CANNON"
+    },
+    {
+        "territory": "Great Britain",
+        "symbol": "BISHOP"
+    },
+    {
+        "territory": "Greenland",
+        "symbol": "CANNON"
+    },
+    {
+        "territory": "Iceland",
+        "symbol": "CANNON"
+    },
+    {
+        "territory": "India",
+        "symbol": "CANNON"
+    },
+    {
+        "territory": "Indonesia",
+        "symbol": "BISHOP"
+    },
+    {
+        "territory": "Japan",
+        "symbol": "BISHOP"
+    },
+    {
+        "territory": "Kamchatka",
+        "symbol": "KNIGHT"
+    },
+    {
+        "territory": "Madagascar",
+        "symbol": "KNIGHT"
+    },
+    {
+        "territory": "Middle East",
+        "symbol": "KNIGHT"
+    },
+    {
+        "territory": "Mongolia",
+        "symbol": "BISHOP"
+    },
+    {
+        "territory": "New Guinea",
+        "symbol": "BISHOP"
+    },
+    {
+        "territory": "North-West Territories",
+        "symbol": "KNIGHT"
+    },
+    {
+        "territory": "Northern Europe",
+        "symbol": "KNIGHT"
+    },
+    {
+        "territory": "Ontario",
+        "symbol": "BISHOP"
+    },
+    {
+        "territory": "Peru",
+        "symbol": "KNIGHT"
+    },
+    {
+        "territory": "Quebec",
+        "symbol": "BISHOP"
+    },
+    {
+        "territory": "Scandinavia",
+        "symbol": "KNIGHT"
+    },
+    {
+        "territory": "Siam",
+        "symbol": "CANNON"
+    },
+    {
+        "territory": "Siberia",
+        "symbol": "CANNON"
+    },
+    {
+        "territory": "Southern Africa",
+        "symbol": "CANNON"
+    },
+    {
+        "territory": "Southern Europe",
+        "symbol": "CANNON"
+    },
+    {
+        "territory": "Ukraine",
+        "symbol": "BISHOP"
+    },
+    {
+        "territory": "Urals",
+        "symbol": "BISHOP"
+    },
+    {
+        "territory": "Venezuela",
+        "symbol": "CANNON"
+    },
+    {
+        "territory": "Western Africa",
+        "symbol": "BISHOP"
+    },
+    {
+        "territory": "Western Australia",
+        "symbol": "CANNON"
+    },
+    {
+        "territory": "Western Europe",
+        "symbol": "KNIGHT"
+    },
+    {
+        "territory": "Western United States",
+        "symbol": "BISHOP"
+    },
+    {
+        "territory": "Yakutia",
+        "symbol": "CANNON"
+    }
+]
