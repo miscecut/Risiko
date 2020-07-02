@@ -47,10 +47,6 @@ public class Country {
         return Optional.empty();
     }
 
-    public Set<String> getOwnedTerritoryNames(Player player) {
-        return getOwnedTerritoryNames(player,0);
-    }
-
     public Set<String> getOwnedTerritoryNames(Player player, int minimumArmies) {
         Set<String> ownedTerritories = new HashSet<>();
         for(Territory territory : territories.values()) {
