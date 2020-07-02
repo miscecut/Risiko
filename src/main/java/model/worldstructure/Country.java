@@ -17,6 +17,10 @@ public class Country {
         territoryNames.forEach(territoryName -> territories.put(territoryName,new Territory(territoryName)));
     }
 
+    public String getName() {
+        return name;
+    }
+
     public int getBonus() {
         return bonus;
     }
@@ -44,10 +48,14 @@ public class Country {
     }
 
     public Set<String> getOwnedTerritoryNames(Player player) {
+        return getOwnedTerritoryNames(player,0);
+    }
+
+    public Set<String> getOwnedTerritoryNames(Player player, int minimumArmies) {
         Set<String> ownedTerritories = new HashSet<>();
         for(Territory territory : territories.values()) {
             Optional<Player> territoryOwner = territory.getOwner();
-            if(territoryOwner.isPresent() && territoryOwner.get().equals(player))
+            if(territoryOwner.isPresent() && territoryOwner.get().equals(player) && territory.getArmies() >= minimumArmies)
                 ownedTerritories.add(territory.getName());
         }
         return ownedTerritories;

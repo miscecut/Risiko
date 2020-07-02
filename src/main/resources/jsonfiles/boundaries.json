@@ -1,0 +1,28 @@
+[
+    {
+        "territory": "Alaska",
+        "boundaries": [
+            "Alberta",
+            "Kamchatka",
+            "North-West Territories"
+        ]
+    },
+    {
+        "territory": "Alberta",
+        "boundaries": [
+            "Alaska",
+            "North-West Territories",
+            "Ontario",
+            "Western United States"
+        ]
+    },
+    {
+        "territory": "North-West Territories",
+        "boundaries": [
+            "Alaska",
+            "Alberta",
+            "Greenland",
+            "Ontario"
+        ]
+    }
+]

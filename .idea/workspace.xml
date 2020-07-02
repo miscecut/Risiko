@@ -19,7 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="24fd0a6b-61c6-4125-9924-5669e0946b6f" name="Default Changelist" comment="gitignore" />
+    <list default="true" id="24fd0a6b-61c6-4125-9924-5669e0946b6f" name="Default Changelist" comment="deleted gitignore">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/jsonfiles/boundaries.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/data/DataManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/data/DataManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/worldstructure/Country.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/worldstructure/Country.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/worldstructure/World.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/worldstructure/World.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -134,7 +140,21 @@
       <option name="project" value="LOCAL" />
       <updated>1593630789873</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="gitignore">
+      <created>1593631138461</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1593631138461</updated>
+    </task>
+    <task id="LOCAL-00011" summary="deleted gitignore">
+      <created>1593631214111</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1593631214111</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -155,9 +175,9 @@
     <MESSAGE value="basic world structure creation" />
     <MESSAGE value="data folder and json creation" />
     <MESSAGE value="creating method which generates the world map from a json file" />
-    <MESSAGE value="deleted gitignore" />
     <MESSAGE value="gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="gitignore" />
+    <MESSAGE value="deleted gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="deleted gitignore" />
   </component>
   <component name="WindowStateProjectService">
     <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593630446698">
@@ -212,10 +232,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1593628809438" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1593630792233">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1593631157233">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1593630792233" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1593631157233" />
     <state x="492" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1593630408011">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
