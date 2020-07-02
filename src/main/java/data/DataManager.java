@@ -1,5 +1,8 @@
 package data;
 
+import model.cards.CardSymbol;
+import model.cards.Deck;
+import model.cards.TerritoryCard;
 import model.worldstructure.Country;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
@@ -37,6 +40,17 @@ public class DataManager {
                 boundariesMap.put((String)((JSONObject)territoryInfo).get("name"), generateTerritoryNames((JSONArray)((JSONObject)territoryInfo).get("territories")));
         } catch (IOException | ParseException ignored) { }
         return boundariesMap;
+    }
+
+    public Deck<TerritoryCard> generateTerritoryCardDeck() {
+        Deck<TerritoryCard> deck = new Deck<>();
+        try {
+            JSONArray cards = (JSONArray) parser.parse(new FileReader("territorycards.json"));
+            for(Object card : cards)
+                deck.addCard(new TerritoryCard((((JSONObject)card).get("territory")) + " card",(String)((JSONObject)card).get("territory"), CardSymbol.valueOf((String)((JSONObject)card).get("symbol"))));
+        } catch (IOException | ParseException ignored) { }
+        deck.shuffle();
+        return deck;
     }
 
     private Set<String> generateTerritoryNames(JSONArray territories) {
