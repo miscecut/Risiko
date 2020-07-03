@@ -30,6 +30,12 @@ public class Hand implements Observable {
         return cardsToBeRemoved;
     }
 
+    public Collection<TerritoryCard> removeAllTerritoryCards() {
+        Collection<TerritoryCard> territoryCards = new ArrayList<>(cards);
+        cards.clear();
+        return territoryCards;
+    }
+
     public Collection<String> getCardNames() {
         Collection<String> cardNames = new ArrayList<>();
         cards.stream().map(Card::getName).forEach(cardNames::add);

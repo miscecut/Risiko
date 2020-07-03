@@ -20,14 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="24fd0a6b-61c6-4125-9924-5669e0946b6f" name="Default Changelist" comment="starting turn manager.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/cards/ObjectiveCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/cards/winconditionstrategies/ConqueredCountriesCondition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/cards/winconditionstrategies/OccupiedTerritoriesCondition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/cards/winconditionstrategies/WinCondition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/utils/exceptions/NotACombinationException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/gamemechanics/GameSession.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/data/DataManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/data/DataManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Player.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/model/cards/Hand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/cards/Hand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/worldstructure/World.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/worldstructure/World.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/cards/ObjectiveCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/cards/ObjectiveCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/jsonfiles/countriesmap.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/jsonfiles/countriesmap.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

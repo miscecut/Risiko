@@ -12,7 +12,7 @@ public class ObjectiveCard extends Card {
         this.winCondition = winCondition;
     }
 
-    public boolean checkVictory(Player cardOwner, World world) {
-        return winCondition.hasPlayerWon(cardOwner,world);
+    public WinCondition getWinCondition() {
+        return winCondition;
     }
 }
