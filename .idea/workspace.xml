@@ -22,7 +22,6 @@
     <list default="true" id="24fd0a6b-61c6-4125-9924-5669e0946b6f" name="Default Changelist" comment="finished initial phase of the game.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/controller/IOController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/IOController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/gamemechanics/GameSession.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/gamemechanics/GameSession.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/model/gamemechanics/TurnManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/gamemechanics/TurnManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -202,7 +201,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593782543481</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="finished initial phase of the game.">
+      <created>1593796079540</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1593796079540</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -317,10 +323,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1593628809438" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1593782545424">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1593796081812">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1593782545424" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1593796081812" />
     <state x="492" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1593630408011">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

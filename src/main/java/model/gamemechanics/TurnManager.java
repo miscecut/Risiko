@@ -2,11 +2,16 @@ package model.gamemechanics;
 
 import controller.IOController;
 import model.Player;
+import model.cards.CombinationHandler;
 import model.cards.Deck;
 import model.cards.TerritoryCard;
 import model.utils.exceptions.NonExistingTerritoryException;
+import model.utils.exceptions.NotACombinationException;
+import model.worldstructure.Territory;
 import model.worldstructure.World;
 
+import java.util.Collection;
+import java.util.Optional;
 import java.util.Set;
 
 public class TurnManager {
@@ -42,7 +47,24 @@ public class TurnManager {
     }
 
     private int useCombination(Player player) {
-        //TODO
-        return 0;
+        Collection<TerritoryCard> cardsToDiscard;
+        while(true) {
+            try {
+                cardsToDiscard = player.getHand().removeCardsForCombination(ioController.askForThreeCards(player,player.getHand().getCardNames()));
+                break;
+            } catch (NotACombinationException ignored) { }
+        }
+        territoryCardDeck.addCards(cardsToDiscard);
+        return (new CombinationHandler()).getMaxCombinationValue(cardsToDiscard) + getOwnedTerritoryBonus(player,cardsToDiscard);
+    }
+
+    private int getOwnedTerritoryBonus(Player player, Collection<TerritoryCard> discardedCards) {
+        Set<String> ownedTerritories = world.getOwnedTerritoryNames(player);
+        int bonus = 0;
+        for(TerritoryCard card : discardedCards) {
+            if(card.getTerritory().isPresent() && ownedTerritories.contains(card.getTerritory().get()))
+                bonus += 2;
+        }
+        return bonus;
     }
 }
