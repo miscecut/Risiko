@@ -39,6 +39,12 @@ public class World {
         return getOwnedTerritoryNames(player,0);
     }
 
+    public Set<String> getOwnedCountryNames(Player player) {
+        Set<String> requestedCountries = new HashSet<>();
+        countries.values().stream().filter(country -> country.getOwner().isPresent() && country.getOwner().get().equals(player)).map(Country::getName).forEach(requestedCountries::add);
+        return requestedCountries;
+    }
+
     public Set<String> fromWhereCanPlayerMove(Player player) {
         Set<String> requestedTerritories = getOwnedTerritoryNames(player,2);
         requestedTerritories.removeAll(getTerritoriesSurroundedByOnlyEnemies(player,new HashSet<>(requestedTerritories)));
@@ -73,7 +79,7 @@ public class World {
         return requestedTerritories;
     }
 
-    private Set<String> getOwnedTerritoryNames(Player player, int minimumArmies) {
+    public Set<String> getOwnedTerritoryNames(Player player, int minimumArmies) {
         Set<String> ownedTerritories = new HashSet<>();
         for(Country country : countries.values())
             ownedTerritories.addAll(country.getOwnedTerritoryNames(player,minimumArmies));

@@ -19,11 +19,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="24fd0a6b-61c6-4125-9924-5669e0946b6f" name="Default Changelist" comment="added method which generates territory card deck">
-      <change afterPath="$PROJECT_DIR$/src/main/java/controller/IOController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/gamemechanics/TurnManager.java" afterDir="false" />
+    <list default="true" id="24fd0a6b-61c6-4125-9924-5669e0946b6f" name="Default Changelist" comment="starting turn manager.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/cards/ObjectiveCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/cards/winconditionstrategies/ConqueredCountriesCondition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/cards/winconditionstrategies/OccupiedTerritoriesCondition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/cards/winconditionstrategies/WinCondition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/utils/exceptions/NotACombinationException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/worldstructure/Country.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/worldstructure/Country.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/cards/Hand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/cards/Hand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/worldstructure/World.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/worldstructure/World.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,8 +37,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -181,7 +185,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593694298424</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="starting turn manager.">
+      <created>1593695744231</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1593695744231</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -238,17 +249,18 @@
     <MESSAGE value="finished existing json files.&#10;written more code in World.&#10;beginning of package cards." />
     <MESSAGE value="added territory cards json" />
     <MESSAGE value="added method which generates territory card deck" />
-    <option name="LAST_COMMIT_MESSAGE" value="added method which generates territory card deck" />
+    <MESSAGE value="starting turn manager." />
+    <option name="LAST_COMMIT_MESSAGE" value="starting turn manager." />
   </component>
   <component name="WindowStateProjectService">
     <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593630446698">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1593630446698" />
-    <state x="488" y="80" key="#com.intellij.ide.util.MemberChooser" timestamp="1593691243144">
+    <state x="488" y="80" key="#com.intellij.ide.util.MemberChooser" timestamp="1593777176283">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="488" y="80" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1593691243144" />
+    <state x="488" y="80" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1593777176283" />
     <state x="412" y="154" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1593630445121">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -293,10 +305,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1593628809438" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1593694299776">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1593695745455">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1593694299776" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1593695745455" />
     <state x="492" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1593630408011">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
