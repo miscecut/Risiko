@@ -34,6 +34,7 @@ public class GameSession {
         fillWorldWithSingleArmies();
         generateJollies();
         putDownInitialArmies();
+        startRegularGame();
     }
 
     private void giveObjectiveCards() {
@@ -100,6 +101,16 @@ public class GameSession {
                 }
             }
             if(breakCondition)
+                break;
+        }
+    }
+
+    private void startRegularGame() {
+        TurnManager tm = new TurnManager(world,territoryCardDeck,ioController);
+        int index = 0;
+        int playersInGame = players.size();
+        while(true) {
+            if(tm.startTurn(players.get(index % playersInGame)))
                 break;
         }
     }

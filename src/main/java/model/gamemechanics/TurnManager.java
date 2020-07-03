@@ -5,7 +5,6 @@ import model.Player;
 import model.cards.Deck;
 import model.cards.TerritoryCard;
 import model.utils.exceptions.NonExistingTerritoryException;
-import model.worldstructure.Territory;
 import model.worldstructure.World;
 
 import java.util.Set;

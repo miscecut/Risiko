@@ -19,9 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="24fd0a6b-61c6-4125-9924-5669e0946b6f" name="Default Changelist" comment="initial phases of the game.">
+    <list default="true" id="24fd0a6b-61c6-4125-9924-5669e0946b6f" name="Default Changelist" comment="finished initial phase of the game.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/IOController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/IOController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/model/gamemechanics/GameSession.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/gamemechanics/GameSession.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/gamemechanics/TurnManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/gamemechanics/TurnManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -193,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593780861773</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="finished initial phase of the game.">
+      <created>1593782543481</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1593782543481</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -252,17 +261,18 @@
     <MESSAGE value="added method which generates territory card deck" />
     <MESSAGE value="starting turn manager." />
     <MESSAGE value="initial phases of the game." />
-    <option name="LAST_COMMIT_MESSAGE" value="initial phases of the game." />
+    <MESSAGE value="finished initial phase of the game." />
+    <option name="LAST_COMMIT_MESSAGE" value="finished initial phase of the game." />
   </component>
   <component name="WindowStateProjectService">
     <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593630446698">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1593630446698" />
-    <state x="488" y="80" key="#com.intellij.ide.util.MemberChooser" timestamp="1593777176283">
+    <state x="488" y="80" key="#com.intellij.ide.util.MemberChooser" timestamp="1593795111665">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="488" y="80" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1593777176283" />
+    <state x="488" y="80" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1593795111665" />
     <state x="412" y="154" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1593630445121">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -307,10 +317,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1593628809438" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1593780864105">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1593782545424">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1593780864105" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1593782545424" />
     <state x="492" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1593630408011">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
