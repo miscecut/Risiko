@@ -1,7 +1,9 @@
 package model.gamemechanics;
 
+import controller.IOController;
 import data.DataManager;
 import model.Player;
+import model.cards.CardSymbol;
 import model.cards.Deck;
 import model.cards.ObjectiveCard;
 import model.cards.TerritoryCard;
@@ -9,17 +11,18 @@ import model.utils.exceptions.EmptyDeckException;
 import model.utils.exceptions.NonExistingTerritoryException;
 import model.worldstructure.World;
 
-import java.util.Collection;
-import java.util.List;
+import java.util.*;
 
 public class GameSession {
     private final List<Player> players;
     private final World world = new World();
     private final Deck<ObjectiveCard> objectiveCardDeck;
     private final Deck<TerritoryCard> territoryCardDeck;
+    private final IOController ioController;
 
-    public GameSession(List<Player> players) {
+    public GameSession(List<Player> players, IOController ioController) {
         this.players = players;
+        this.ioController = ioController;
         DataManager dm = new DataManager();
         objectiveCardDeck = dm.generateObjectiveCardDeck();
         territoryCardDeck = dm.generateTerritoryCardDeck();
@@ -29,7 +32,8 @@ public class GameSession {
         giveObjectiveCards();
         giveTerritoryCards();
         fillWorldWithSingleArmies();
-        putDownInitialArmies()
+        generateJollies();
+        putDownInitialArmies();
     }
 
     private void giveObjectiveCards() {
@@ -65,7 +69,38 @@ public class GameSession {
         }
     }
 
-    private void putDownInitialArmies() {
+    private void generateJollies() {
+        territoryCardDeck.addCard(new TerritoryCard("jolly1", CardSymbol.JOLLY));
+        territoryCardDeck.addCard(new TerritoryCard("jolly2",CardSymbol.JOLLY));
+        territoryCardDeck.shuffle();
+    }
 
+    private void putDownInitialArmies() {
+        Map<Player, Set<String>> ownedTerritoriesPerPlayer = new HashMap<>();
+        Map<Player, Integer> remainingArmiesPerPlayer = new HashMap<>();
+        players.forEach(player -> ownedTerritoriesPerPlayer.put(player,world.getOwnedTerritoryNames(player)));
+        players.forEach(player -> remainingArmiesPerPlayer.put(player,50 - players.size() * 5 - ownedTerritoriesPerPlayer.get(player).size()));
+        while(true) {
+            for(Player player : players) {
+                int armiesToPutDown = Math.max(3,remainingArmiesPerPlayer.get(player));
+                remainingArmiesPerPlayer.replace(player,remainingArmiesPerPlayer.get(player) - armiesToPutDown);
+                for(int i = 0; i < armiesToPutDown; i++){
+                    try {
+                        world.getTerritory(ioController.askForATerritory(player,ownedTerritoriesPerPlayer.get(player),"Select a territory you own"));
+                    } catch (NonExistingTerritoryException e) {
+                        i--;
+                    }
+                }
+            }
+            boolean breakCondition = true;
+            for(Integer remainingArmy : remainingArmiesPerPlayer.values()) {
+                if (remainingArmy != 0) {
+                    breakCondition = false;
+                    break;
+                }
+            }
+            if(breakCondition)
+                break;
+        }
     }
 }

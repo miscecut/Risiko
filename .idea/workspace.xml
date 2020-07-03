@@ -19,14 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="24fd0a6b-61c6-4125-9924-5669e0946b6f" name="Default Changelist" comment="starting turn manager.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/gamemechanics/GameSession.java" afterDir="false" />
+    <list default="true" id="24fd0a6b-61c6-4125-9924-5669e0946b6f" name="Default Changelist" comment="initial phases of the game.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/data/DataManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/data/DataManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/cards/Hand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/cards/Hand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/cards/ObjectiveCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/cards/ObjectiveCard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/jsonfiles/countriesmap.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/jsonfiles/countriesmap.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/gamemechanics/GameSession.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/gamemechanics/GameSession.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -191,7 +186,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593695744231</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="initial phases of the game.">
+      <created>1593780861773</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1593780861773</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -249,7 +251,8 @@
     <MESSAGE value="added territory cards json" />
     <MESSAGE value="added method which generates territory card deck" />
     <MESSAGE value="starting turn manager." />
-    <option name="LAST_COMMIT_MESSAGE" value="starting turn manager." />
+    <MESSAGE value="initial phases of the game." />
+    <option name="LAST_COMMIT_MESSAGE" value="initial phases of the game." />
   </component>
   <component name="WindowStateProjectService">
     <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593630446698">
@@ -304,10 +307,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1593628809438" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1593695745455">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1593780864105">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1593695745455" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1593780864105" />
     <state x="492" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1593630408011">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
