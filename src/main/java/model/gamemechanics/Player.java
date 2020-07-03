@@ -1,4 +1,4 @@
-package model;
+package model.gamemechanics;
 
 import model.cards.Hand;
 import model.cards.ObjectiveCard;

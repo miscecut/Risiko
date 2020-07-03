@@ -1,6 +1,6 @@
 package model.worldstructure;
 
-import model.Player;
+import model.gamemechanics.Player;
 import model.utils.exceptions.NonExistingTerritoryException;
 
 import java.util.*;

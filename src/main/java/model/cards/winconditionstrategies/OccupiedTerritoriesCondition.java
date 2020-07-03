@@ -1,9 +1,7 @@
 package model.cards.winconditionstrategies;
 
-import model.Player;
+import model.gamemechanics.Player;
 import model.worldstructure.World;
-
-import java.util.Set;
 
 public class OccupiedTerritoriesCondition implements WinCondition {
     private final int ownedTerritoryAmount;

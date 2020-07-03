@@ -1,17 +1,14 @@
 package model.gamemechanics;
 
 import controller.IOController;
-import model.Player;
 import model.cards.CombinationHandler;
 import model.cards.Deck;
 import model.cards.TerritoryCard;
 import model.utils.exceptions.NonExistingTerritoryException;
 import model.utils.exceptions.NotACombinationException;
-import model.worldstructure.Territory;
 import model.worldstructure.World;
 
 import java.util.Collection;
-import java.util.Optional;
 import java.util.Set;
 
 public class TurnManager {

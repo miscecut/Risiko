@@ -2,9 +2,8 @@ package model.worldstructure;
 
 import model.Observable;
 import model.Observer;
-import model.Player;
+import model.gamemechanics.Player;
 
-import javax.swing.text.html.Option;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Optional;

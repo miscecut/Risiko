@@ -1,6 +1,7 @@
 package model.utils;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class DiceSet {
@@ -11,6 +12,7 @@ public class DiceSet {
         for(int singleThrow = 0; singleThrow < dice; singleThrow++)
             sequence.add(die.roll());
         sequence.sort(Integer::compareTo);
+        Collections.reverse(sequence);
         return sequence;
     }
 

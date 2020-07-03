@@ -1,4 +1,4 @@
-package model;
+package model.gamemechanics;
 
 public enum ArmyColor {
     GREEN,

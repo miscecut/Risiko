@@ -2,7 +2,6 @@ package model.gamemechanics;
 
 import controller.IOController;
 import data.DataManager;
-import model.Player;
 import model.cards.CardSymbol;
 import model.cards.Deck;
 import model.cards.ObjectiveCard;

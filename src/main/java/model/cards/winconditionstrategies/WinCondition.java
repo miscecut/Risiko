@@ -1,6 +1,6 @@
 package model.cards.winconditionstrategies;
 
-import model.Player;
+import model.gamemechanics.Player;
 import model.worldstructure.World;
 
 public interface WinCondition {

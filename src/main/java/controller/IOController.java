@@ -1,6 +1,6 @@
 package controller;
 
-import model.Player;
+import model.gamemechanics.Player;
 
 import java.util.Collection;
 import java.util.Set;

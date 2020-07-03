@@ -1,7 +1,7 @@
 package model.worldstructure;
 
 import data.DataManager;
-import model.Player;
+import model.gamemechanics.Player;
 import model.utils.exceptions.NonExistingTerritoryException;
 
 import java.util.*;

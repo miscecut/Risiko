@@ -19,10 +19,35 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="24fd0a6b-61c6-4125-9924-5669e0946b6f" name="Default Changelist" comment="finished initial phase of the game.">
+    <list default="true" id="24fd0a6b-61c6-4125-9924-5669e0946b6f" name="Default Changelist" comment="finished card bonus phase.">
+      <change afterPath="$PROJECT_DIR$/src/test/java/model/utils/DiceSetTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/model/utils/DieTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/model/worldstructure/CountryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/model/worldstructure/TerritoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Risiko.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Risiko.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/controller/IOController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/IOController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/ArmyColor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/gamemechanics/ArmyColor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/gamemechanics/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/cards/ObjectiveCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/cards/ObjectiveCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/cards/winconditionstrategies/ConqueredCountriesCondition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/cards/winconditionstrategies/ConqueredCountriesCondition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/cards/winconditionstrategies/OccupiedTerritoriesCondition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/cards/winconditionstrategies/OccupiedTerritoriesCondition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/cards/winconditionstrategies/WinCondition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/cards/winconditionstrategies/WinCondition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/gamemechanics/GameSession.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/gamemechanics/GameSession.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/model/gamemechanics/TurnManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/gamemechanics/TurnManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/utils/DiceSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/utils/DiceSet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/worldstructure/Country.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/worldstructure/Country.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/worldstructure/Territory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/worldstructure/Territory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/worldstructure/World.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/worldstructure/World.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/data/DataManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/data/DataManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jsonfiles/countriesmap.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jsonfiles/countriesmap.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/ArmyColor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/Player.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/utils/DiceSet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/utils/DiceSet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/worldstructure/Country.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/worldstructure/Country.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/worldstructure/Territory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/worldstructure/Territory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/worldstructure/World.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/worldstructure/World.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +60,7 @@
         <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -50,15 +76,38 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="model.worldstructure" />
+      <recent name="model.utils" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.All in Risiko">
     <configuration name="Start Server" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="ServerMain" />
       <module name="Risiko" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in Risiko" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="Risiko" />
+      <useClassPathOnly />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="PARAMETERS" value="" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -208,7 +257,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593796079540</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="finished card bonus phase.">
+      <created>1593817882275</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1593817882275</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -268,9 +324,14 @@
     <MESSAGE value="starting turn manager." />
     <MESSAGE value="initial phases of the game." />
     <MESSAGE value="finished initial phase of the game." />
-    <option name="LAST_COMMIT_MESSAGE" value="finished initial phase of the game." />
+    <MESSAGE value="finished card bonus phase." />
+    <option name="LAST_COMMIT_MESSAGE" value="finished card bonus phase." />
   </component>
   <component name="WindowStateProjectService">
+    <state x="286" y="0" key="#All_in_Risiko" timestamp="1593818462086">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="286" y="0" key="#All_in_Risiko/0.0.1366.728@0.0.1366.728" timestamp="1593818462086" />
     <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593630446698">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -295,22 +356,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="561" y="262" key="Github.ShareDialog/0.0.1366.728@0.0.1366.728" timestamp="1593623885952" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1593630494726">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1593819960387">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1593630494726" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1593630494726">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1593819960387" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1593819960387">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1593630494726" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1593630494726">
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1593819960387" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1593819960387">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1593630494726" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1593630494726">
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1593819960387" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1593819960387">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1593630494726" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1593819960387" />
     <state x="213" y="19" key="Maven.ArtifactSearchDialog" timestamp="1593628729664">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -323,13 +384,17 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1593628809438" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1593796081812">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1593817885052">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1593796081812" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1593817885052" />
     <state x="492" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1593630408011">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="492" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1593630408011" />
+    <state x="454" y="174" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1593819407311">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="454" y="174" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.728@0.0.1366.728" timestamp="1593819407311" />
   </component>
 </project>
