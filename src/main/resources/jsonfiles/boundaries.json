@@ -63,7 +63,7 @@
     },
     {
         "territory": "Chita",
-        "Boundaries": [
+        "boundaries": [
             "Kamchatka",
             "Mongolia",
             "Siberia",

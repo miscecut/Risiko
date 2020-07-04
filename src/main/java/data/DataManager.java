@@ -12,12 +12,10 @@ import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
 
+import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 
 public class DataManager {
     private final JSONParser parser = new JSONParser();
@@ -25,10 +23,10 @@ public class DataManager {
     public Map<String,Country> generateWorldStructure() {
         Map<String,Country> worldMap = new HashMap<>();
         try {
-            JSONArray countries = (JSONArray) parser.parse(new FileReader("countriesmap.json"));
+            JSONArray countries = (JSONArray) parser.parse(new FileReader(new File(Objects.requireNonNull(getClass().getClassLoader().getResource("jsonfiles/countriesmap.json")).getFile())));
             for(Object country : countries ) {
                 Set<String> territoryNames = generateTerritoryNames((JSONArray)((JSONObject)country).get("territories"));
-                Country generatedCountry = new Country((String)((JSONObject)country).get("name"),territoryNames,(int)((JSONObject)country).get("bonus"));
+                Country generatedCountry = new Country((String)((JSONObject)country).get("name"),territoryNames,(int)((long)((JSONObject)country).get("bonus")));
                 territoryNames.forEach(territory -> worldMap.put(territory,generatedCountry));
             }
         } catch (IOException | ParseException ignored) { }
@@ -38,9 +36,9 @@ public class DataManager {
     public Map<String,Set<String>> generateBoundariesMap() {
         Map<String,Set<String>> boundariesMap = new HashMap<>();
         try {
-            JSONArray territories = (JSONArray) parser.parse(new FileReader("boundaries.json"));
+            JSONArray territories = (JSONArray) parser.parse(new FileReader(new File(Objects.requireNonNull(getClass().getClassLoader().getResource("jsonfiles/boundaries.json")).getFile())));
             for(Object territoryInfo : territories)
-                boundariesMap.put((String)((JSONObject)territoryInfo).get("name"), generateTerritoryNames((JSONArray)((JSONObject)territoryInfo).get("territories")));
+                boundariesMap.put((String)((JSONObject)territoryInfo).get("name"), generateTerritoryNames((JSONArray)((JSONObject)territoryInfo).get("boundaries")));
         } catch (IOException | ParseException ignored) { }
         return boundariesMap;
     }
@@ -48,7 +46,7 @@ public class DataManager {
     public Deck<TerritoryCard> generateTerritoryCardDeck() {
         Deck<TerritoryCard> deck = new Deck<>();
         try {
-            JSONArray cards = (JSONArray) parser.parse(new FileReader("territorycards.json"));
+            JSONArray cards = (JSONArray) parser.parse(new FileReader(new File(Objects.requireNonNull(getClass().getClassLoader().getResource("jsonfiles/territorycards.json")).getFile())));
             for(Object card : cards)
                 deck.addCard(new TerritoryCard((((JSONObject)card).get("territory")) + " card",(String)((JSONObject)card).get("territory"), CardSymbol.valueOf((String)((JSONObject)card).get("symbol"))));
         } catch (IOException | ParseException ignored) { }
